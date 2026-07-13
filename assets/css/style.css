@@ -84,7 +84,7 @@
   --fs-5: 18px;
   --fs-6: 14px;
   --fs-7: 13px;
-  --fs-8: 14px;
+  --fs-8: 18px;
 
   /* font-weight */
   --fw-300: 300;
@@ -473,6 +473,9 @@ main {
   justify-content: center;
   align-items: center;
   padding: 0 10px;
+	border: 1px solid #ffbf5f;
+    border-bottom: 0;
+    border-radius: 10px 10px 0 0;
 }
 
 .navbar-link {
@@ -1708,6 +1711,9 @@ textarea.form-input::-webkit-resizer { display: none; }
     border-radius: 0 20px;
     padding: 0 20px;
     box-shadow: none;
+	          border: 1px solid #ffbf5f;
+        border-top: 0;
+        border-right: 0;
   }
 
   .navbar-list {
